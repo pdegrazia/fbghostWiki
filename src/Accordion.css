@@ -1,0 +1,35 @@
+.expandable {
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    transition: 0.4s;
+  }
+
+.hidden {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.displayed {
+  padding: 0 18px;
+  display: block;
+}
+
+p.info {
+       -moz-border-radius: 6px;
+       -webkit-border-radius: 6px;
+       background-color: #edf5c2;
+       border: solid 1px #3498db;
+       border-radius: 6px;
+       line-height: 18px;
+       overflow: hidden;
+       padding: 12px;
+  }
+
+span {
+  display: block;
+}

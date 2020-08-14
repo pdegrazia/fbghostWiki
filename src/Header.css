@@ -1,0 +1,16 @@
+
+#header img {
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+  
+#header h1 {
+    height: 100px;
+    position: relative;
+    float: left;
+    background: white;
+    width: 70%;
+
+}
+  
