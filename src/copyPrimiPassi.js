@@ -103,20 +103,8 @@ export const copyPrimiPassi = [
     },
     {
         title:"WiFi",
-        content:<WiFiCopy/>,
+        content:<WifiCopy/>,
     },
-    {
-        title:"Calibrazione PID",
-        content:<FirmwareVersionsCopy/>,
-    },
-    {
-        title:"Quinto Punto Calibrazione",
-        content:<FirmwareVersionsCopy/>,
-    },
-    {
-        title:"Calibrazione Piatto",
-        content:<FirmwareVersionsCopy/>,
-    }
 ]
 
 //module.exports =  [copyPrimiPassi, SoftwareCopy]
