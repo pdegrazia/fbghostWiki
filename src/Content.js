@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Home'
 import Firmware from './Firmware'
 import PrimiPassi from './PrimiPassi'
+import ImageGallery from './ImageGallery'
 
 //refactor to use proper keys to display values
 const textToDisplay = {
@@ -47,7 +48,7 @@ class Content extends React.Component {
                 myContent = <div style={style}>6</div>
                 break;
             default:
-                myContent = <div style={style}>default</div>
+                myContent = <div style={style}><ImageGallery/></div>
                 break;
         }
 
