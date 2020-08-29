@@ -35,10 +35,6 @@ class MyComponent extends React.Component {
         original: 'images/gallery/dwarf.jpg',
         thumbnail: 'images/gallery/dwarf.jpg',
       },
-      {
-        original: 'images/gallery/litoGiuseppe.jpg',
-        thumbnail: 'images/gallery/litoGiuseppe.jpg'
-      },
     ]
 
     return (
