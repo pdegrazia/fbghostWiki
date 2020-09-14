@@ -3,6 +3,7 @@ import Home from './Home'
 import Firmware from './Firmware'
 import PrimiPassi from './PrimiPassi'
 import ImageGallery from './ImageGallery'
+import Upgrades from './Upgrades'
 
 //refactor to use proper keys to display values
 const textToDisplay = {
@@ -23,8 +24,9 @@ class Content extends React.Component {
 
     render(){
         var style = {
-            width: "100%",
-            height: "100vh"
+            width: "80%",
+            height: "100vh",
+            marginLeft:"20px"
         } 
         var myVar = textToDisplay[this.props.testProp];
         let myContent;
@@ -42,7 +44,7 @@ class Content extends React.Component {
                 myContent = <div style={style}>4</div>
                 break;
             case "five":
-                myContent = <div style={style}>5</div>
+                myContent = <div style={style}><Upgrades/></div>
                 break;
             case "six":
                 myContent = <div style={style}>6</div>

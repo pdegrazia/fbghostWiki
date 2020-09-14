@@ -22,12 +22,14 @@
 p.info {
        -moz-border-radius: 6px;
        -webkit-border-radius: 6px;
-       background-color: #edf5c2;
+       background-color: #e9f0c6;
        border: solid 1px #3498db;
        border-radius: 6px;
        line-height: 18px;
        overflow: hidden;
        padding: 12px;
+       white-space: pre-wrap;
+
   }
 
 span {

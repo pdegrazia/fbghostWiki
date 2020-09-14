@@ -1,0 +1,34 @@
+.upgradeItem {
+    border: 1px solid black;
+    width: 150px;
+    height: 168px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    float: left;
+    margin: 10px;
+}
+
+.upgradeItem:hover{
+    border: 3px solid yellow;
+}
+.upgradeItemTitle {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.upgradeItemTitle:hover {
+    background-color: red;
+}
+
+.hidden {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.displayed {
+  padding: 0 18px;
+  display: block;
+}

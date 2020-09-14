@@ -4,9 +4,9 @@ import Accordion from './Accordion'
 import { SoftwareCopy } from './copyPrimiPassi'
 
 class PrimiPassi extends React.Component{
-    constructor(props){
-        super(props)
-    }
+    // constructor(props){
+    //     super(props)
+    // }
 
     render(){
         return(

@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    margin: 30px auto;
+  }
+
+.columnLeft {
+    flex: 40%;
+}
+
+.columnRight {
+    flex: 60%;
+}
+
+#homeintro {
+    margin:auto;
+    font-size: 22px;
+    white-space: pre-wrap;
+    width: 80%;
+    text-align: justify;
+}

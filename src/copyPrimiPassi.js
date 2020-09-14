@@ -3,28 +3,18 @@ import React from 'react'
 export function SoftwareCopy() {
     return(
         <p className="info">
-            <span>
-                Il firmware, cioè il programma che fa funzionare la stampante, 
-                è installato nella memoria della scheda madre, contenuta nella base.
-            </span>
-            <span>
-                Può essere aggiornato molto facilmente tramite la scheda microSD 
-                fornita con la stampante.
-            </span>
-            <span>
-                Un primo consiglio che possiamo darvi è di aggiornare immediatamente
-                la stampante con il più recente firmware, da scaricare qui: 
-                conterrà diversi bugfix e vi eviterà problemi di compatibilità con le
-                guide su questa Wiki e con le ultime versioni di cura (il nostro slicer preferito)
-            </span>
-            <span>
-                Per prima cosa, effettuare un backup della scheda (passo facoltativo, se non vi importa
-                niente del contenuto, che, di default, dovrebbe essere il file di config per il firmware
-                e i file stl e gcode della vite e del bullone).
-            </span>
-            <span>
-                Una volta copiato il contenuto della scheda in una cartella di vostra preferenza:
-            </span>
+{/* TODO: remove this horribly long string, move it to a file */}
+{`
+Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base.
+Può essere aggiornato molto facilmente tramite la scheda microSD fornita con la stampante.
+Un primo consiglio che possiamo darvi è di aggiornare immediatamente la stampante con il più recente firmware, da scaricare qui: 
+conterrà diversi bugfix e vi eviterà problemi di compatibilità con le guide su questa Wiki e con le ultime versioni di cura (il nostro slicer preferito)
+Per prima cosa, effettuare un backup della scheda (passo facoltativo, se non vi importa
+niente del contenuto, che, di default, dovrebbe essere il file di config per il firmware
+e i file stl e gcode della vite e del bullone).
+
+Una volta copiato il contenuto della scheda in una cartella di vostra preferenza:
+`}
             <ol>
                 <li>Scaricate il firmware</li>
                 <li>Scompattatelo in una cartella che terrete come backup per sicurezza</li>
@@ -33,24 +23,22 @@ export function SoftwareCopy() {
                 <li>Inserite la scheda nella stampante (attenzione: la scheda va inserita capovolta rispetto a come si inserisce nell'adattatore!)</li>
                 <li>Spegnere (se accesa) e accendere la stampante</li>
             </ol>
-            <span>
-                Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso,
-                che indicherà lo stato dell'installazione del firmware. 
-                (inserire qui schermata dell'upgrade del firmware)
-            </span>
-            <span>
-                Completata questa operazione, vi si presentarà il menu. Siete un passo più vicini alla
-                vostra prima stampa con la Flying Bear Ghost 4S! Non fatevi tentare dallo smanettare con
-                il menu:
-            </span>
+            {`
+Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso, che indicherà lo stato dell'installazione del firmware. 
+(inserire qui schermata dell'upgrade del firmware)
+Completata questa operazione, vi si presenterà il menu. Siete un passo più vicini alla vostra prima stampa con la Flying Bear Ghost 4S! 
+Non fatevi tentare dallo smanettare con il menu:
+            `}
             <ol>
                 <li>Estraete la microSD dalla stampante ed inseritela nel computer</li>
                 <li>Copiate sul computer il file robin_nano35_cfg.cur</li>
                 <li>Apritelo e salvatelo come robin_nano35_cfg.txt (shortcut: F2 per Ubuntu, Enter per macOS)</li>
             </ol>
-            <span>Questo file contiente tutti i principali parametri della stampante.</span>
-            <span> Cambiare un valore in questo file permette di modificare quel valore sul firmware installato.</span>
-            <span> Vediamo cosa cambiare nel file robin_nano35_cfg.txt che avete creato prima tramite il vosto editor preferito</span>
+            {`
+Questo file contiente tutti i principali parametri della stampante
+Cambiare un valore in questo file permette di modificare quel valore sul firmware installato
+Vediamo cosa cambiare nel file robin_nano35_cfg.txt che avete creato prima tramite il vostro editor preferito
+            `}        
         </p>
     )
 }
